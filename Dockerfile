@@ -46,4 +46,4 @@ COPY . .
 EXPOSE 8081
 
 # Run the application.
-CMD gunicorn '.venv.lib.python3.9.site-packages.werkzeug.wsgi' --bind=0.0.0.0:8081
+#CMD gunicorn '.venv.lib.python3.9.site-packages.werkzeug.wsgi' --bind=0.0.0.0:8081
